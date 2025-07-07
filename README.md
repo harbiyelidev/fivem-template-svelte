@@ -35,7 +35,7 @@ npm run dev
 
 Bu komut bir geliştirme sunucusu başlatır. Tarayıcıda otomatik olarak açılır (`http://localhost:5173` gibi).
 
-> ⚠️ Uyarı: Bu haliyle yalnızca tarayıcıda test edebilirsin. NUI entegrasyonu için build alman gerekir.
+> ⚠️ Uyarı: Yaptığınız değişiklikler direkt olarak `NUI` üzerinde gözükmeyecektir. Bunun için build olmanız gerekmektedir.
 
 ---
 
@@ -49,7 +49,7 @@ FiveM içerisinde NUI olarak kullanmak için aşağıdaki adımları takip et:
 npm run build
 ```
 
-Bu işlem `dist/` klasörünü oluşturur ve optimize edilmiş dosyaları içine yerleştirir.
+Bu işlem `build/` klasörünü oluşturur ve optimize edilmiş dosyaları içine yerleştirir.
 
 ---
 
